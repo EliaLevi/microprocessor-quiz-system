@@ -52,16 +52,16 @@ https://github.com/user-attachments/assets/4f065bee-0b3a-47b8-a318-a38fca024fd2
 ### Real-Time Interrupt & Signal Analysis
 To verify deterministic interrupt timing under execution load, `PORTC<7>` was measured using an **Agilent InfiniiVision DSO-X 3012A Digital Storage Oscilloscope**, confirming precise 100ms timing intervals without jitter.
 
- <img width="600" height="600" alt="IMG_9812" src="https://github.com/user-attachments/assets/c35ab41a-e476-4b50-9e50-1ab1c36e8247" />
+ <img width="600" height="800" alt="IMG_9812" src="https://github.com/user-attachments/assets/c35ab41a-e476-4b50-9e50-1ab1c36e8247" />
 
 ---
 ### Keypad Operation & Function Mapping
 
 | Key | Operation | Functionality |
 |---|---|---|
-| **A** | **Addition (+)** | Triggers addition of two pseudo-random digits[cite: 2] |
+| **A** | **Addition (+)** | Triggers addition of two pseudo-random digits |
 | **B** | **Subtraction (-)** | Triggers subtraction with automatic operand swap to prevent negative results |
-| **C** | **Multiplication (*)** | Triggers multiplication (first operand clamped to $\le 5$) |
+| **C** | **Multiplication (*)** | Triggers multiplication |
 | **D** | **Division (/)** | Triggers integer division with divide-by-zero protection|
 | **0–9** | **Digit Input** | Enters two-digit answer during the 5-second countdown |
 | **PA5** | **Reset** | External push button to reset the accumulated score |
